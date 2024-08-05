@@ -5,5 +5,9 @@
         "activityBar.background": "#4B016E",
         "titleBar.activeBackground": "#69019A",
         "titleBar.activeForeground": "#FDF9FF"
-    }
+    },
+
+  "MarkdownPublisher.ChromeExecutablePath": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",    
+  "MarkdownPublisher.ChromeUserDataDir": "C:\\Users\\nonl_\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default"
+    
 }

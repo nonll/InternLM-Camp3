@@ -11,11 +11,12 @@
 闯关材料提交 (完成任务并且提交材料时为闯关成功)
 请将作业发布到知乎、CSDN等任一社交媒体，将作业链接提交到以下问卷，助教老师批改后将获得 100 算力点奖励！！！
 
-提交地址：https://aicarrier.feishu.cn/share/base/form/shrcnZ4bQ4YmhEtMtnKxZUcf1vd
+提交地址：<https://aicarrier.feishu.cn/share/base/form/shrcnZ4bQ4YmhEtMtnKxZUcf1vd>
 
 ## 文档
 
 > [readme.md](https://github.com/InternLM/Tutorial/blob/camp3/docs/L1/HelloIntern/readme.md)
+
 ### 0. 配置环境安装依赖包
 
 ```py
@@ -37,9 +38,10 @@ conda activate llamaindex
 pip install llama-index==0.10.38 llama-index-llms-huggingface==0.2.0 "transformers[torch]==4.41.1" "huggingface_hub[inference]==0.23.1" huggingface_hub==0.23.1 sentence-transformers==2.7.0 sentencepiece==0.2.0
 ```
 
-2. 下载 Sentence Transformer 模型
+2.下载 Sentence Transformer 模型
 
 `vi cd ~/llamaindex_demo/download_hf.py`,创建文件，内容如下：
+
 ```py
 import os
 
@@ -55,7 +57,8 @@ os.system('huggingface-cli download --resume-download sentence-transformers/para
 conda activate llamaindex
 python download_hf.py
 ```
-3. 下载 NLTK 相关资源
+
+3.下载 NLTK 相关资源
 
 ```bash
 cd /root
@@ -252,9 +255,18 @@ if st.session_state.messages[-1]["role"] != "assistant":
 
 ## 作业
 
-1.  下载 Sentence Transformer 模型
+### 1. 下载 Sentence Transformer 模型
+
 ![4-1下载 Sentence Transformer 模型](vx_images/4-1下载SentenceTransformer模型.png)
 
-2.  llamaindex_internlm 回答 xtuner是什么
+### 2.  llamaindex_internlm 回答 xtuner是什么
+
 ![4-2llamaindex_internlm](vx_images/4-2llamaindex_internlm.png)
 
+### 3. RAG回答xtuner是什么
+
+![4-3rag](vx_images/4-3rag.png)
+
+### 4. 网页RAG回答xtuner是什么
+
+![4-4rag-web回答xtuner是什么](vx_images/4-4rag-web回答xtuner是什么.png)

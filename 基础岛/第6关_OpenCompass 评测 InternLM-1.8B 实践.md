@@ -9,7 +9,6 @@
 ### 基础任务（完成此任务即完成闯关）
 
 - 使用 OpenCompass 评测 internlm2-chat-1.8b 模型在 MMLU 数据集上的性能，记录复现过程并截图。
-  
 
 ### 进阶任务（闯关不要求完成此任务）
 
@@ -17,14 +16,14 @@
 - 使用 OpenCompass 评测 InternLM2-Chat-1.8B 模型使用 LMDeploy部署后在 MMLU 数据集上的性能（选做）
 - 使用 OpenCompass 进行调用API评测（优秀学员必做）
 
-
 ### 闯关材料提交（完成任务并且提交材料视为闯关成功）
-- 闯关作业总共分为一个任务，一个任务完成视作闯关成功。
-- 请将作业发布到知乎、CSDN等任一社交媒体，将作业链接提交到以下问卷，助教老师批改后将获得 50 算力点奖励！！！ 
-- 提交地址：https://aicarrier.feishu.cn/share/base/form/shrcnZ4bQ4YmhEtMtnKxZUcf1vd
 
+- 闯关作业总共分为一个任务，一个任务完成视作闯关成功。
+- 请将作业发布到知乎、CSDN等任一社交媒体，将作业链接提交到以下问卷，助教老师批改后将获得 50 算力点奖励！！！
+- 提交地址：<https://aicarrier.feishu.cn/share/base/form/shrcnZ4bQ4YmhEtMtnKxZUcf1vd>
 
 ## 文档
+
 > [readme.md](https://github.com/InternLM/Tutorial/blob/camp3/docs/L1/OpenCompass/readme.md)
 
 ### 概览
@@ -37,13 +36,22 @@
 
 可视化：评估完成后，OpenCompass 将结果整理成易读的表格，并将其保存为 CSV 和 TXT 文件。
 
-接下来，我们将展示 OpenCompass 的基础用法，分别用命令行方式和配置文件的方式评测InternLM2-Chat-1.8B，展示书生浦语在 C-Eval 基准任务上的评估。更多评测技巧请查看 https://opencompass.readthedocs.io/zh-cn/latest/get_started/quick_start.html 文档。
+接下来，我们将展示 OpenCompass 的基础用法，分别用命令行方式和配置文件的方式评测InternLM2-Chat-1.8B，展示书生浦语在 C-Eval 基准任务上的评估。更多评测技巧请查看 <https://opencompass.readthedocs.io/zh-cn/latest/get_started/quick_start.html> 文档。
 
 ### 数据准备
 
+1. 评测数据集
+2. InternLM和ceval 相关的配置文件
+
+### 启动评测 (10% A100 8GB 资源)
+
+1. 使用命令行配置参数法进行评测
+2. 使用配置文件修改参数法进行评测
 
 ## 作业
 
-![6-1评测结果1](vx_images/293470407241049.png)
+### 评测结果
 
-![6-1评测结果2](vx_images/199470507259475.png)
+![6-1评测结果1](vx_images/6-1评测结果1.png)
+
+![6-1评测结果2](vx_images/6-1评测结果2.png)
